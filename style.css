@@ -20,11 +20,11 @@ label, input[type=button]{
 }
 input[type=number], input[type=range], select{
     position: absolute;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 span#rate_val{
     position: absolute;
-    margin-left: 300px;
+    margin-left: 350px;
 }
 p{
     margin-left: 40px;
