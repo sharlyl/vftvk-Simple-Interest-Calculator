@@ -1,4 +1,35 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white}
+h1{
+    color:gray;
+    font-family:verdana}
+div.maindiv{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: left;
+}
+label, input[type=button]{
+    position: absolute;
+    margin-left: 40px;
+}
+input[type=number], input[type=range], select{
+    position: absolute;
+    margin-left: 150px;
+}
+span#rate_val{
+    position: absolute;
+    margin-left: 300px;
+}
+p{
+    margin-left: 40px;
+}
+
+
 
 
