@@ -13,16 +13,16 @@
             <h1>Simple Interest Calculator</h1>
             <form>
                 <label>Amount </label>
-                <input type="number"  id="principal">  
+                <input type="number"  id="principal" autofocus>  
                 <br/><br/>
 
                 <label for="rate">Rate </label>
-                <input type="range" class="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()"> 
+                <input type="range" class="range" id="rate" min="1" max="20" step="0.25" value="10.25" autofocus onchange="updateRate()"> 
                 <span id="rate_val">10.25%</span>
                 <br/><br/>
     
                 <label>No. of Years </label>
-                <select id="years">
+                <select id="years" autofocus>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -37,10 +37,10 @@
                 <br/><br/>
 
                 <label>Interest Targeted </label>
-                <input type="number"  id="target_interest">  
+                <input type="number"  id="target_interest" autofocus>  
                 <br/><br/>
     
-                <input type="button" id="Compute Interest" value="Compute Interest" onclick="compute()"><br/>
+                <input type="button" id="Compute Interest" value="Compute Interest" autofocus onclick="compute()"><br/>
                 <span id="result"><br></span>
                 <span id="recommendation"></span>
             </form>
