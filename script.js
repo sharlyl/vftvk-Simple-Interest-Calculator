@@ -8,7 +8,7 @@ function compute(){
     
     if (principal <=0){
         alert("Enter a positive number")
-        document.getElementByValue("Compute Interest").focus();
+        document.getElementById("Compute Interest").focus();
     } else{
         var rate = document.getElementById("rate").value;
         var years = document.getElementById("years").value;
