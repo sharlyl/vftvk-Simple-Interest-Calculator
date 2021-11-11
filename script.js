@@ -18,17 +18,17 @@ function compute(){
         document.getElementById("result").innerHTML="<p>If you deposit <mark>"+principal+"</mark>,\
         \<br>at an interest rate of <mark>"+rate+"%</mark>.\
         \<br>You will receive an amount of <mark>"+interest+"</mark>,\
-        \<br>in the year <mark>"+year+"</mark>\
+        \<br>in the year <mark>"+year+"</mark>.\
         \</p>";
 
         var target_interest = document.getElementById("target_interest").value;
         if(target_interest!=""){
             if(interest<target_interest){
-                document.getElementById("recommendation").innerHTML="<p>To meet your tagret, you need to \<br> increase the \
+                document.getElementById("recommendation").innerHTML="<p>To meet your target, you need to \<br> increase the \
                 <mark>Amount</mark> invested, the Interest <mark>Rate</mark>, \
-                \<br>or <mark>No. of Years</mark></p>"
+                \<br>or <mark>No. of Years</mark>.</p>"
             }else{
-                document.getElementById("recommendation").innerHTML="<p>You will achieve your target</p>"
+                document.getElementById("recommendation").innerHTML="<p>You will achieve your target.</p>"
             }
         }
     }
